@@ -1,56 +1,6 @@
 ## Clash for Android
 
-A Graphical user interface of [clash](https://github.com/Dreamacro/clash) for Android
-
-<a href="https://play.google.com/store/apps/details?id=com.github.kr328.clash"><img width="200px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a> or [Releases](https://github.com/Kr328/ClashForAndroid/releases)
-
-### Feature
-
-Fully feature of [clash](https://github.com/Dreamacro/clash) ~~(Exclude `external-controller`~~
-
-### Requirement
-
-- Android 5.0+ (minimum)
-- Android 7.0+ (recommend)
-- `armeabi-v7a` , `arm64-v8a`, `x86` or `x86_64` Architecture
-
-### License
-
-See also [LICENSE](./LICENSE) and [NOTICE](./NOTICE)
-
-### Privacy Policy
-
-See also [PRIVACY_POLICY.md](./PRIVACY_POLICY.md)
-
-### Build
-
-1. Update submodules
-
-   ```bash
-   git submodule update --init --recursive
-   ```
-
-2. Install **OpenJDK 11**, **Android SDK**, **CMake** and **Golang**
-
-3. Create `local.properties` in project root with
-
-   ```properties
-   sdk.dir=/path/to/android-sdk
-   ```
-
-4. Create `signing.properties` in project root with
-
-   ```properties
-   keystore.path=/path/to/keystore/file
-   keystore.password=<key store password>
-   key.alias=<key alias>
-   key.password=<key password>
-   ```
-
-5. Build
-
-   ```bash
-   ./gradlew app:assembleFossRelease
-   ```
-
-6. Pick `app-<version>-foss-<arch>-release.apk` in `app/build/outputs/apk/foss/release/`
+A Graphical user interface of [clash](https://github.com/Dreamacro/clash) for Android 
+由于国内某公司的某个人因为他导致这个clash系列软件都停更了。因为他在国内微博大肆宣传导致clash项目已经关闭或者封闭了。现在核心还是有的，因为换了名字。但是不会再提供安卓版本。
+安卓版本是有。但是换了名字叫虚空终端，但是这个下载不到，因为在TG私密群组里头。虽然有clash新版本。但不过都是基于电脑版
+况且这种规则也不更新了。毕竟要分流，但是现在可好了。不仅规则停更，软件也停更，就有句话说的好，一步错步步错。
